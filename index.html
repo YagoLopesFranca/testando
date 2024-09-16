@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Solo</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/futura-lt-paneuropean"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilo/style.css" />
+    <link rel="stylesheet" href="estilos/media-query.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-h1">
+        <div id="logo-fig">
+          <img src="logo/logo.png" alt="logo loja" />
+          <figcaption>Ohm Tec Cell</figcaption>
+        </div>
+        <h1>Assistencia Tecnica Especializada em Tablet e Celular</h1>
+      </div>
+      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+      <menu id="itens">
+        <ul>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Localização</a></li>
+        </ul>
+      </menu>
+    </header>
+
+    <main>
+      <article>
+        <h2>Assitência Técnica Especializada em Tablets e Smartphone</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quis
+          quibusdam laudantium sunt ratione inventore commodi numquam ad soluta,
+          debitis in voluptates aspernatur itaque aperiam illo dignissimos
+          dolorem quae explicabo.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quis
+          quibusdam laudantium sunt ratione inventore commodi numquam ad soluta,
+          debitis in voluptates aspernatur itaque aperiam illo dignissimos
+          dolorem quae explicabo.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quis
+          quibusdam laudantium sunt ratione inventore commodi numquam ad soluta,
+          debitis in voluptates aspernatur itaque aperiam illo dignissimos
+          dolorem quae explicabo.
+        </p>
+      </article>
+    </main>
+
+    <script>
+      function clickMenu() {
+        if (itens.style.display == "block") {
+          itens.style.display = "none";
+        } else {
+          itens.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
