@@ -13,7 +13,6 @@ body {
 
 header {
   height: 20vh;
-
   background-color: black;
   text-align: center;
   color: white;
@@ -23,15 +22,19 @@ header {
 .container-h1 > h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.4rem;
-  transform: translate(0rem, 2.3rem);
+  /* transform: translate(0rem, 3rem); */
+  text-align: center;
 }
 
 #logo-fig {
-  transform: translate(0rem, 1rem);
+  /* transform: translate(0rem, 2rem); */
+  text-align: center;
+  padding-top: 1rem;
 }
 
 #logo-fig > img {
   width: 5rem;
+  padding-top: 1rem;
 }
 
 #logo-fig > figcaption {
