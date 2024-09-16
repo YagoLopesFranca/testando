@@ -1,0 +1,85 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+header {
+  height: 20vh;
+
+  background-color: black;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.container-h1 > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  transform: translate(0rem, 2.3rem);
+}
+
+#logo-fig {
+  transform: translate(0rem, 1rem);
+}
+
+#logo-fig > img {
+  width: 5rem;
+}
+
+#logo-fig > figcaption {
+  font-size: 1.2rem;
+  line-height: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+menu {
+  background-color: rgb(255, 255, 255);
+  margin: 0 8rem;
+  border-radius: 1rem;
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+  right: -4.3rem;
+}
+
+menu > ul {
+  list-style-type: none;
+}
+
+menu > ul > li > a {
+  font-weight: 600;
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+menu > ul > li > a:hover {
+  background-color: rgb(190, 160, 23);
+}
+
+i#burguer {
+  background-color: rgba(255, 255, 255, 0.74);
+  color: rgb(7, 7, 7);
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+i#burguer:hover {
+  display: block;
+  background-color: white;
+  color: black;
+}
