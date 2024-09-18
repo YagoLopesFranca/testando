@@ -12,4 +12,56 @@ html {
 
 body {
   font-family: "Futura LT", sans-serif;
+  color: white;
+  background-color: #b4b1b1;
+}
+
+header {
+  background-color: rgb(59, 57, 57);
+  height: 19svh;
+  position: relative;
+}
+
+img {
+  padding: 1rem;
+  width: 7rem;
+  display: inline;
+  transform: translateY(2rem);
+}
+
+.titulo-menu {
+  text-align: center;
+}
+
+.titulo-menu > h1 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  display: inline;
+}
+
+menu {
+  background-color: #ffffffd5;
+  box-shadow: 0 0.2rem 3rem 0.1rem rgba(12, 12, 12, 0.5);
+}
+
+menu > ul > li {
+  padding: 1rem;
+  border-bottom: 0.1rem solid black;
+}
+
+menu > ul > li > a {
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+i#burguer {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+main {
+  display: none;
 }
