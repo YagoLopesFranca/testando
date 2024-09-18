@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 1000px) {
   i#burguer {
     display: none;
   }
@@ -8,10 +8,7 @@
   menu {
     background-color: rgba(0, 0, 0, 0);
 
-    display: block;
-    /* transform: translate(-50px, 68px); */
     border-radius: 0;
-    text-align: center;
   }
 
   menu > ul > li {
@@ -39,7 +36,7 @@
   }
 
   .container-h1 > h1 {
-    font-size: 1.9rem;
+    font-size: 19px;
     transform: translate(50px, 30px);
   }
 }
