@@ -16,11 +16,8 @@
     <link rel="stylesheet" href="estilo/media-query.css">
   <body onresize="mudouTamanho()">
     <header>
-      <div class="container-h1">
-        <div id="logo-fig">
           <img src="logo/logo.png" alt="logo loja" />
           <figcaption>Ohm Tec Cell</figcaption>
-        </div>
         <h1>Assistencia Tecnica Especializada em Tablet e Celular</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         
@@ -32,8 +29,7 @@
             <li><a href="#">Localização</a></li>
             <li><a href="#">Atendimento</a></li>
           </ul>
-        </menu>
-      </div>
+        </menu> 
     </header>
 
     <main>
@@ -64,7 +60,7 @@
 
     <script>
       function mudouTamanho() {
-        if (window.innerWidth >= 768) {
+        if (window.innerWidth >= 795) {
           itens.style.display = 'block'
         } else {
           itens.style.display = 'none'

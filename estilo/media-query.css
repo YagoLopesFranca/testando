@@ -1,42 +1,4 @@
 @charset 'UTF-8';
 
-@media screen and (min-width: 1000px) {
-  i#burguer {
-    display: none;
-  }
-
-  menu {
-    background-color: rgba(0, 0, 0, 0);
-
-    border-radius: 0;
-  }
-
-  menu > ul > li {
-    display: inline-block;
-  }
-
-  menu > ul > li > a {
-    padding: 0 1rem;
-    color: white;
-    font-size: 16px;
-    font-weight: 300;
-  }
-
-  #logo-fig > img {
-    width: 7rem;
-    position: absolute;
-    left: 109px;
-  }
-
-  #logo-fig > figcaption {
-    font-size: 1.5rem;
-    position: absolute;
-    left: 92px;
-    bottom: 22px;
-  }
-
-  .container-h1 > h1 {
-    font-size: 19px;
-    transform: translate(50px, 30px);
-  }
+@media screen and (min-width: 795px) {
 }

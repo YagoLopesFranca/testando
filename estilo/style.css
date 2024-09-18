@@ -6,84 +6,10 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html {
   font-size: 62.5%;
+}
+
+body {
   font-family: "Futura LT", sans-serif;
-}
-
-header {
-  width: 100vw;
-  height: 12rem;
-  background-color: black;
-  text-align: center;
-  color: white;
-  position: relative;
-}
-
-.container-h1 > h1 {
-  font-size: 1.4rem;
-  text-align: center;
-  padding: 1rem;
-}
-
-#logo-fig {
-  /* transform: translate(0rem, 2rem); */
-  text-align: center;
-  padding-top: 1.1rem;
-}
-
-#logo-fig > img {
-  width: 5rem;
-  padding-top: 1rem;
-}
-
-#logo-fig > figcaption {
-  font-size: 1.2rem;
-  line-height: 1rem;
-  letter-spacing: 0.1rem;
-}
-
-menu {
-  background-color: rgb(255, 255, 255);
-  margin: 0 8rem;
-  border-radius: 1rem;
-  display: none;
-  position: absolute;
-  top: 1.5rem;
-  right: -4.3rem;
-}
-
-menu > ul {
-  list-style-type: none;
-}
-
-menu > ul > li > a {
-  font-weight: 600;
-  color: rgb(0, 0, 0);
-  display: block;
-  text-decoration: none;
-  padding: 1rem;
-  font-size: 1.6rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-menu > ul > li > a:hover {
-  background-color: rgb(190, 160, 23);
-}
-
-i#burguer {
-  background-color: rgba(255, 255, 255, 0.74);
-  color: rgb(7, 7, 7);
-  position: absolute;
-  top: 1.5rem;
-  right: 1rem;
-  border-radius: 0.3rem;
-  cursor: pointer;
-}
-
-i#burguer:hover {
-  display: block;
-  background-color: white;
-  color: black;
 }
