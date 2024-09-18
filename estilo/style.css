@@ -59,7 +59,7 @@ menu > ul {
 
 menu > ul > li > a {
   font-weight: 600;
-  color: black;
+  color: rgb(0, 0, 0);
   display: block;
   text-decoration: none;
   padding: 1rem;
