@@ -20,6 +20,27 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  header {
+    height: 6rem;
+  }
+
+  .titulo-menu > img {
+    width: 6.4rem;
+    transform: translate(-2rem, 0rem);
+  }
+
+  .titulo-menu > h1 {
+    font-size: 1rem;
+  }
+
+  i#burguer {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+  }
+}
+
 @media screen and (min-width: 795px) {
   i#burguer {
     display: none;
