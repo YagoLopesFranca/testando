@@ -1,8 +1,18 @@
 @charset 'UTF-8';
 
-@media screen and (min-width: 568px) {
-  h1 {
-    font-size: 1rem;
+@media screen and (max-width: 320px) {
+  header {
+    height: 9rem;
+  }
+
+  .titulo-menu > img {
+    text-align: center;
+    transform: translate(0.3rem, 0.2rem);
+  }
+
+  .titulo-menu > h1 {
+    font-size: 1.1rem;
+    transform: translate(0.2rem, -0.3rem);
   }
 }
 
@@ -12,13 +22,13 @@
   }
 
   header {
-    height: 13vh;
+    height: 12vh;
   }
 
   menu {
     box-shadow: none;
     background: none;
-    transform: translate(5rem, -2.2rem);
+    transform: translate(5rem, -2.9rem);
   }
 
   menu > ul > li {

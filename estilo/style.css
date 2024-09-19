@@ -13,13 +13,13 @@ html {
 body {
   font-family: "Futura LT", sans-serif;
   color: white;
-  background-color: #b4b1b1;
 }
 
 header {
   background-color: rgb(59, 57, 57);
-  height: 12vh;
+  height: 7rem;
   position: relative;
+  position: ;
 }
 
 img {
@@ -64,5 +64,5 @@ i#burguer {
 }
 
 main {
-  display: ;
+  display: none;
 }
