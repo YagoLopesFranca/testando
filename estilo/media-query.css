@@ -1,7 +1,35 @@
 @charset 'UTF-8';
 
+@media screen and (min-width: 568px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (min-width: 795px) {
   i#burguer {
     display: none;
+  }
+
+  header {
+    height: 13vh;
+  }
+
+  menu {
+    box-shadow: none;
+    background: none;
+    transform: translate(5rem, -2.2rem);
+  }
+
+  menu > ul > li {
+    padding-top: 0;
+    display: inline;
+    text-decoration: none;
+    border: none;
+  }
+
+  menu > ul > li > a {
+    color: white;
+    margin-right: 1rem;
   }
 }
