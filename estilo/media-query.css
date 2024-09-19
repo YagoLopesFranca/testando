@@ -1,18 +1,20 @@
 @charset 'UTF-8';
 
-@media screen and (min-width: 320px) {
+@media (max-width: 600px) {
+  /* Regras CSS para telas menores */
+
   header {
-    height: 9rem;
+    height: 8.5rem;
   }
 
   .titulo-menu > img {
     text-align: center;
-    transform: translate(0.3rem, 0.2rem);
+    transform: translate(0.3rem, -0.4rem);
   }
 
   .titulo-menu > h1 {
-    font-size: 1.1rem;
-    transform: translate(0.2rem, -0.3rem);
+    font-size: 1.2rem;
+    transform: translate(0.2rem, -0.97rem);
   }
 
   main {
