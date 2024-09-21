@@ -1,54 +1,6 @@
 @charset 'UTF-8';
 
-@media (max-width: 600px) {
-  /* Regras CSS para telas menores */
-
-  header {
-    height: 8.5rem;
-  }
-
-  .titulo-menu > img {
-    width: 9rem;
-    text-align: center;
-    transform: translate(-3.8rem, 0rem);
-  }
-
-  .titulo-menu > h1 {
-    font-size: 1rem;
-    transform: translate(-2rem, -4rem);
-    letter-spacing: 0.1rem;
-  }
-
-  main {
-    display: none;
-  }
-}
-
-@media (min-width: 375px) and (max-width: 525px) {
-  header {
-    height: 9rem;
-    background-color: rgb(59, 57, 57);
-  }
-
-  .titulo-menu > img {
-    padding: 0;
-    width: 5rem;
-    transform: translate(16rem, 1rem);
-  }
-
-  .titulo-menu > h1 {
-    font-size: 1rem;
-    transform: translate(-2rem, 2.5rem);
-  }
-
-  i#burguer {
-    position: absolute;
-    top: 0.5rem;
-    right: 1rem;
-  }
-}
-
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1024px) {
   /* Regras CSS para telas médias */
 
   i#burguer {
